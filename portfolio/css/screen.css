@@ -1,0 +1,63 @@
+body {
+  background: #cc6666;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  color: #660000;
+  background: #fff;
+}
+
+.statement {
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+
+.statement 2{
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+
+.statement 3{
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+
+h4 {
+  background: #ff9999;
+}
+
+nav ul{
+background: #fff;
+text-align: center;
+}
+
+nav li{
+display: inline;
+margin: 0 .5em;
+}
+
+nav a {
+display: inline-block;
+color: #000;
+padding: 1em;
+}
+
+.name {
+text-align: center;
+font-size: 3em;
+}
+
+#turkey {
+width: 45em;
+height: 40em;
+}
+
+#verdana {
+width: 45em;
+
+}
