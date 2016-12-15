@@ -1,0 +1,241 @@
+#thanksgiving {
+  width: 530px;
+  height: 800px;
+  margin: auto;
+  
+}
+
+
+#turkey {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 200px;
+	height: 200px;
+	background: #996633;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 200px;
+  z-index: 1;
+}
+
+#hat {
+	position:relative;
+  margin: auto;
+  border-bottom: 100px solid ;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 10px;
+	width: 50px;
+  left: 0;
+  right: 0;
+  top: 1em;
+  z-index: 2;
+ }
+
+#hat-brim {
+  position: relative;
+  left: -4.5em;
+  right: -2em;
+  top: 6em;
+  z-index: 1;
+  margin: auto;
+  width:190px;
+	height: 30px;
+	background: black;
+  z-index: 3;
+}
+
+#eye-1 {
+  position: absolute;
+  top: 3em;
+  left: 4em;
+  width: 20px;
+	height: 30px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+#eye-2 {
+  position: absolute;
+  top: 3em;
+  right: 5em;
+  width: 20px;
+	height: 30px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+#beak {
+  position: absolute;
+  bottom: 5em;
+  left: 3.2em;
+  right: 0;
+  width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid #ffcc33;
+  
+}
+
+#neck{
+	position: relative;
+  top: 10em;
+  margin: auto;
+  width:60px;
+	height: 130px;
+	background: #996633;
+}
+
+#body {
+position: relative;
+  top: 9em;
+  right: 2.5em;
+  margin: auto;
+  width: 300px;
+	height: 300px;
+	background: #996633;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 200px;
+  z-index: 1;
+}
+
+#foot-1 {
+ position:relative;
+  margin: auto;
+  border-bottom: 50px solid #ffcc33;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 10px;
+	width: 50px;
+  left: ;
+  right: 2em;
+  top: 8em;
+  
+	
+}
+
+#foot-2 {
+ position: relative;
+  margin: auto;
+  border-bottom: 50px solid #ffcc33;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 10px;
+	width: 50px;
+  left: 4em;
+  right: ;
+  top: 4.3em;
+  
+}
+
+#feather-1 {
+	position: relative;
+  width: 100px;
+	height: 300px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  transform: rotate(30deg);
+  bottom: 9em;
+  left: 25em
+  
+}
+
+#feather-2 {
+	position: relative;
+  width: 100px;
+	height: 300px;
+	background: orange;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  transform: rotate(25deg);
+  bottom: 30em;
+  left: 20em;
+  
+}
+
+#feather-2 {
+	position: relative;
+  width: 100px;
+	height: 300px;
+	background: orange;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  transform: rotate(25deg);
+  bottom: 30em;
+  left: 20em;
+  
+}
+
+#feather-3 {
+	position: relative;
+  width: 100px;
+	height: 300px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  transform: rotate(10deg);
+  bottom: 50em;
+  left: 15em;
+  
+}
+
+#feather-4 {
+	position: relative;
+  width: 100px;
+	height: 300px;
+	background: orange;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  transform: rotate(-10deg);
+  bottom: 68em;
+  right: -8em;
+  
+}
+
+#feather-5 {
+	position: relative;
+  width: 100px;
+	height: 300px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  transform: rotate(-25deg);
+  bottom: 84em;
+  right: -4em;
+  
+}
+
+#band {
+  position:relative;
+  margin: auto;
+  border-bottom: 30px solid grey;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	height: ;
+	width: 6.5em;
+  left: -2.5em;
+  right: 0;
+  bottom: -2em;
+  z-index: 2;
+}
+
+#happy thanksgiving {
+   
+}
