@@ -1,0 +1,203 @@
+#vase {
+   position: relative;
+   top: 8em;
+   width: 126px;
+   height: 180px;
+   background-color: #ff3399;
+    border-radius:  50%  50%  50%  50%  / 60%   60%   40%  40%;
+  margin: auto;
+}
+
+#vase-base {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+font-size: 100%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-bottom: 2em solid #ff3399;
+border-top: 0;
+margin: auto;
+}
+
+#vase-top {
+position: absolute;
+top: -1.1em;
+left: 0;
+right: 0;
+font-size: 200%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 2em solid #ff3399;
+border-bottom: 0;
+margin: auto;
+}
+
+#flower {
+  position: relative;
+  width: 120px;
+	height: 90px;
+  margin: 2em auto 0;
+}
+
+  #flower-center {
+	position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+	height: 50px;
+	background: #f99;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+  
+  #petal-1 {
+	position: absolute;
+  top: -1em;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+	height: 50px;
+	background: #00ffff;
+  background: linear-gradient(-50deg, #ccc, #00ffff);
+  border-radius: 50%;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+   animation: fall 1s ease 5s forwards;
+}
+
+ #petal-2 {
+	position: absolute;
+  top: 0;
+  right: 0;
+   width: 50px;
+	height: 50px;
+	background: #00ffff;
+  background: linear-gradient(-37deg, #ccc, #00ffff);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+   animation: fall 1s ease 3s forwards;
+}
+
+ #petal-3 {
+	position: absolute;
+  top: 0;
+  left: 0;
+   bottom: 0;
+  width: 50px;
+	height: 50px;
+	background: #00ffff;
+  background: linear-gradient(-172deg, #ccc, #00ffff);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+   animation: fall 1s ease 2s forwards;
+}
+
+ #petal-4 {
+	position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+	height: 50px;
+	background: #00ffff;
+  background: linear-gradient(78deg, #ccc, #00ffff);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+   animation: fall 1s ease 6s forwards;
+}
+
+ #petal-5 {
+	position: absolute;
+  bottom: -1em;
+  right: 0;
+  left: 0;
+   margin: auto;
+  width: 50px;
+	height: 50px;
+	background: #00ffff;
+  background: linear-gradient(-37deg, #ccc, #00ffff);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+   animation: fall 1s ease 3s forwards;
+}
+
+ #petal-6 {
+	position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+	height: 50px;
+	background: #00ffff;
+  background: linear-gradient(-37deg, #ccc, #00ffff);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+   animation: fall 1s ease 8s forwards;
+}
+
+#stem{
+	position: relative;
+  top: 4em;
+  margin: auto;
+  width:5px;
+	height: 130px;
+	background: #33cc33;
+}
+
+#table{
+  position: absolute;
+  top: 11em;
+  left:0;
+  right: 20em;
+  width:300px;
+	height: 60px;
+	background: #cc6666;
+}
+
+#leg-1{
+  position: relative;
+  bottom: 0;
+  top: 11em;
+  left:16.4em;
+  right: 0;
+  width:40px;
+	height: 200px;
+	background: #cc6666;
+}
+  
+  #leg-2{
+  position: absolute;
+  top: 11em;
+  left:0;
+  right: 20em;
+  width:40px;
+	height: 200px;
+	background: #cc6666;
+}
+
+@keyframes fall{
+  
+  0% {
+    top: 0;
+  }
+  
+  100% {
+    top: 16em;
+    opacity: 0;
+  }
+}
